@@ -2,7 +2,7 @@
 /**
  * main - printing the size o of various types on a computer
  * Return: 0 (success)
-*/
+ */
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
