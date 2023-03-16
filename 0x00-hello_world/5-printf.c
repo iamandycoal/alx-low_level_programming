@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdio.h>
 /**
  * main - a program that prints using printf
