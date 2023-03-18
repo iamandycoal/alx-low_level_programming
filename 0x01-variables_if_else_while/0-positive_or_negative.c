@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
+/* comment style for Betty */
+
 /**
  * main - Main entry point
  * Description - if-else program.
