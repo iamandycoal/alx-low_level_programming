@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more header goes here. */
-
 
 /**
- * main - Entry point
- * Description: if-else program.
- * Return: (0) always - Success
+ * main - Main entry point
+ * Description - if-else program.
+ * Return - 0 value always - Success
  */
 int main(void)
 {
