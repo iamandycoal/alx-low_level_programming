@@ -7,7 +7,7 @@
 /**
  * main - Main entry point
  * Description - if-else program.
- * Return - 0 value always - Success
+ * Return (0): always - Success
  */
 int main(void)
 {
