@@ -1,21 +1,20 @@
 #include "main.h"
 /**
- * main - prints the word _putchar
- * _putchar : prints a single character to console
- *
- * Return: 0 for success
- */
+ * main - This is the main function
+*putchar- Prints the putchar
+*Return: 0
+*/
+
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
