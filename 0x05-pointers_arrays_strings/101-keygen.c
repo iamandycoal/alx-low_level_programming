@@ -14,13 +14,14 @@ int main(void)
 	int passwd;
 	char p;
 
-	srand(time(0));
+	rand(time(0));
 	while (passwd <= 2775)
 	{
 		p = rand() % 100;
 		passwd = passwd + p;
 		putchar(p);
 	}
-	putchar(2775 - sum);
+	putchar(2775 - passwd);
+
 	return (0);
 }
