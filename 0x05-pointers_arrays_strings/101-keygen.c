@@ -14,7 +14,7 @@ int main(void)
 	int passwd;
 	char p;
 
-	rand(time(0));
+	rand(time(NULL));
 	while (passwd <= 2775)
 	{
 		p = rand() % 100;
