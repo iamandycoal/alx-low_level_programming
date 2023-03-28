@@ -15,10 +15,10 @@ int main(void)
 	char p;
 
 	srand(time(0));
-	while (p <= 2775)
+	while (passwd <= 2775)
 	{
 		p = rand() % 100;
-		sum = passwd + p;
+		passwd = passwd + p;
 		putchar(p);
 	}
 	putchar(2775 - sum);
