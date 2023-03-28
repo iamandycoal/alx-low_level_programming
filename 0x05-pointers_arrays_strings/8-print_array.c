@@ -3,6 +3,8 @@
 
 /**
  * print_array - function that prints 'n' elements of an array of integers
+ * @a: type of int array pointer
+ * @n: type of integer
  *
  * Return: 0
  */
