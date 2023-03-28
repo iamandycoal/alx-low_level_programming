@@ -23,7 +23,7 @@ int main(void)
 		password[i] = charset[rand() % (sizeof(charset) - 1)];
 		password [passwd] = '\0';
 	}
-	printf("Your random password is: %s\n", password);
+	printf("Tada! Congrats: %s\n", password);
 
 	return (0);
 }
