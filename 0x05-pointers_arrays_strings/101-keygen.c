@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -11,17 +12,18 @@
 
 int main(void)
 {
-	int passwd;
-	char p;
+	char password[passwd + 1];
+	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+{}[];:,.<>?";
+	int i = 0;
 
 	srand(time(NULL));
-	while (passwd <= 2775)
+
+	for (i < passwd; i++)
 	{
-		p = rand() % 100;
-		passwd = passwd + p;
-		putchar(p);
+		password[i] = charset[rand() % (sizeof(charset) - 1)];
+		password [passwd] = '\0';
 	}
-	putchar(2775 - passwd);
+	printf("Your random password is: %s\n", password);
 
 	return (0);
 }
