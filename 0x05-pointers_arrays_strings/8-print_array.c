@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 	int v;
 
-	for (v = 0; v < 0; v++)
+	for (v = 0; v < n; v++)
 		if (v != n - 1)
 			printf("%d ", a[v]);
 		else
