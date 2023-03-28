@@ -18,7 +18,7 @@ int main(void)
 
 	srand(time(NULL));
 
-	for (i < passwd; i++;)
+	for (i = 0; i < passwd; i++)
 	{
 		password[i] = charset[rand() % (sizeof(charset) - 1)];
 		password [passwd] = '\0';
