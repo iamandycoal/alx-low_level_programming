@@ -15,7 +15,7 @@ int main(void)
 	char p;
 
 	srand(time(0));
-	while (sum <= 2775)
+	while (p <= 2775)
 	{
 		p = rand() % 100;
 		sum = passwd + p;
