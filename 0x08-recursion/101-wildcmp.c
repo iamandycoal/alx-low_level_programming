@@ -5,7 +5,7 @@
  * if the strings can be considered identical, otherwise return 0.
  * @s1: pointer to string params
  * @s2: pointer to string params
- * 
+ *
  * Return: 0
  */
 
