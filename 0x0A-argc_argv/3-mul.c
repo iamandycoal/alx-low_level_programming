@@ -20,8 +20,8 @@ int main(int argc, char **argv)
 	}
 
 	a = atoi(argv[2]);
-	y = atoi(argv[2]);
-	printf("%d\n", a * y);
+	b = atoi(argv[2]);
+	printf("%d\n", a * b);
 
 	return (0);
 }
