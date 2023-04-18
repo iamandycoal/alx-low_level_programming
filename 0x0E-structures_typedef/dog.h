@@ -6,6 +6,7 @@
  *
  * @name: poppy
  * @age: 18
+ * @owner: unknown
  */
 
 struct dog
