@@ -3,7 +3,7 @@
 /**
  * init_dog - initializes a structure of type dog
  *
- * @p: pointer to structure
+ * @d: pointer to structure
  * @name: pointer to the name of the dog
  * @age: age of dog
  * @owner: pointer to owner of dog
@@ -11,9 +11,9 @@
  * Return: void
  */
 
-void init_dog(struct dog *p, char *name, float age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (p)
+	if (d)
 	{
 		d->name = name;
 		d->age = age;
